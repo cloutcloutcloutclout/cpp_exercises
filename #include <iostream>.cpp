@@ -3,18 +3,15 @@ using namespace std;
 
 int main(){
 
-    // Average of 3 numbers
+    // converting to ascii (probably important l8r)
     
-    float a, b, c;
-    cout << "Enter three numbers: ";
-    cin >> a >> b >> c;
+    char a;
+    cout << "Enter singular character: ";
+    cin >> a;
 
-    float sum = a + b + c;
-    float count = 3;
+    int charascii = (int)a;
 
-    float answer = sum / count;
-
-    cout << "\n" << answer << endl;
+    cout << "\n" << charascii << endl;
 
     return 0;
 }

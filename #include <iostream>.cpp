@@ -3,18 +3,15 @@ using namespace std;
 
 int main(){
 
-    // 2 integers, sum(a * y), difference, product, integer quotent (integer division)
+    // 2 integers, area of rectangle
     
-    int x, y;
-    cout << "Enter two integers: ";
+    float x, y;
+    cout << "Enter length and width: ";
     cin >> x >> y;
 
     // answers
-    
-    cout << "\n" << "Sum is: " << x + y << endl;
-    cout << "difference is: " << x - y << endl;
-    cout << "product is: " << x * y << endl;
-    cout << "quotent is: " << x / y << endl;
+
+    cout << "\n" << "Area of rectangle is: " << x * y << endl;
 
     return 0;
 }

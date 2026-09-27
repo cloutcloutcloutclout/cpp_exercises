@@ -35,3 +35,23 @@ int main(){
 
     return 0;
 }
+
+## task 3
+
+int main(){
+
+    // Average of 3 numbers
+    
+    float a, b, c;
+    cout << "Enter three numbers: ";
+    cin >> a >> b >> c;
+
+    float sum = a + b + c;
+    float count = 3;
+
+    float answer = sum / count;
+
+    cout << "\n" << answer << endl;
+
+    return 0;
+}

@@ -3,15 +3,18 @@ using namespace std;
 
 int main(){
 
-    // 2 integers, area of rectangle
+    // Average of 3 numbers
     
-    float x, y;
-    cout << "Enter length and width: ";
-    cin >> x >> y;
+    float a, b, c;
+    cout << "Enter three numbers: ";
+    cin >> a >> b >> c;
 
-    // answers
+    float sum = a + b + c;
+    float count = 3;
 
-    cout << "\n" << "Area of rectangle is: " << x * y << endl;
+    float answer = sum / count;
+
+    cout << "\n" << answer << endl;
 
     return 0;
 }

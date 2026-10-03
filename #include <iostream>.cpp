@@ -1,17 +1,15 @@
 #include <iostream>
+#include <string>
+#include <sstream>
+
 using namespace std;
 
 int main(){
 
-    // converting to ascii (probably important l8r)
-    
-    char a;
-    cout << "Enter singular character: ";
-    cin >> a;
-
-    int charascii = (int)a;
-
-    cout << "\n" << charascii << endl;
-
-    return 0;
+    if(0.1 + 0.2 == 0.3){
+        cout << "Equal" << endl;
+    }
+    else{
+        cout << "UnEqual" << endl;
+    }
 }

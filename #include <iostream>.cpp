@@ -6,10 +6,11 @@ using namespace std;
 
 int main(){
 
-    if(0.1 + 0.2 == 0.3){
-        cout << "Equal" << endl;
+    int test[] = {1,2,3,4,5};
+
+    for(int i = 1; i <= size(test); i++){
+        cout << i << endl;
     }
-    else{
-        cout << "UnEqual" << endl;
-    }
+
+
 }
